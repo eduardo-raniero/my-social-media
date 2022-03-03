@@ -27,7 +27,7 @@ Como a aplicação adiciona/remove/edita postagens e comentários, assim como po
 
 - No terminal, faça a cópia do repositório através do comando:
 ```bash
-git clone https://www.github.com/eduardo-raniero/<REPO-HERE>
+git clone https://github.com/eduardo-raniero/my-social-media.git
 ```
 
 - Abra a pasta com o [Visual Studio Code](https://code.visualstudio.com/) ou seu editor de preferência.

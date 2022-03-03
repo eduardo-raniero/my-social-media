@@ -17,7 +17,7 @@ Como a aplicação adiciona/remove/edita postagens e comentários, assim como po
 
 - _**Next.JS:**_ Devido ao seu modo de prcessamento, Server Side Rendering, as aplicações Next são previamente carregadas na camada intermediária entre o servidor e o cliente, sendo exibidas em tela com maior velocidade e sem a necessidade da `<div className="root">`, tornando assim o código indexável aos mecanismos de busca, melhorando o ranqueamento da página e a experiência do usuário;
 
-- _**SCSS:**_ Como decidi criar uma estilização do zero para este projeto e precisava ser eficiente, utilizei o SASS para que eu pudesse aninhar as linhas de css, tornando o processo de estilização mais rápido e o resultado final com melhor leiturabilidade, facilitando sua manutenção;
+- _**SCSS:**_ Como decidi criar uma estilização do zero para este projeto e precisava ser eficiente, utilizei o SCSS para que eu pudesse aninhar as linhas de css, tornando o processo de estilização mais rápido e o resultado final com melhor leiturabilidade, facilitando sua manutenção;
 
 - _**React-Icons:**_ Essencial para facilitar a navegação do usuário através de ícones intuitivos, comunicando visualmente o que esperar de cada botão.
 

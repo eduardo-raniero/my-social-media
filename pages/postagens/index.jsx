@@ -196,13 +196,6 @@ export default function Posts(){
             }
         });
     }
-
-    //Toggle Comments
-    const handleComments = (e) => {
-        if(toggleComment === null){
-            setToggleComment(e)
-        }
-    }
     
     return(
         <div className={styles.aligner}>
@@ -366,13 +359,11 @@ export default function Posts(){
         
                         <div>
                             <code>{item.username + ' - ' + item.date}</code>
-                            <span onClick={handleComments(item.id)}>({item.comments.length}) Comentários </span>
+                            <span >({item.comments.length}) Comentários </span>
                         </div>
                         <hr />
                         <div style={{marginTop:'1.5rem'}} className={styles.commentsList}>
                             {
-
-                                toggleComment === item.id ?
                                 item.comments.map(comment => (
                                     <div key={comment.id} style={{minWidth: '100%'}}>
                                         <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -389,7 +380,6 @@ export default function Posts(){
                                         <p> {comment.content} </p>
                                     </div>                              
                                 ))
-                                :null
                             }
 
                             {

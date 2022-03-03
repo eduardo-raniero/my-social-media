@@ -1,0 +1,100 @@
+.alignBox{
+    text-align: center;
+}
+
+.whiteBox{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 35rem;
+    height: auto;
+    background: #fff;
+    border-radius: 2px;
+
+    form{
+        display: inline-block;
+        max-width: 25rem;
+
+        small{
+            color: #BB0F15;
+          }
+    }
+
+    input {
+        width: 100%;
+        margin-top: .8rem;
+        padding: .75rem;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        color: #1e1e1e;
+
+        &:focus{
+            outline: 1px solid #48D06D;
+            border-color: #48D06D;
+        }
+
+        &::placeholder{
+            color: rgb(163, 163, 163);
+        }
+    }
+
+    button {
+        width: 100%;
+        color: #fff;
+        background: #48D06D;
+        padding: .75rem .8rem;
+        margin-top: .5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 400;
+        font-size: 1rem;
+
+        &:disabled{
+            opacity: .5;
+            cursor: not-allowed;
+        }
+
+        &:hover{
+            filter: brightness(1.15);
+        }
+
+        &:active{
+            filter: brightness(.85);
+        }
+    }
+
+    small {
+        color: #1e1e1e;
+
+        a {
+            color: #246AC0;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .alignBox{
+        .logo{
+            max-width: 5.5rem;
+        }
+
+        .whiteBox{
+            padding: 1.5rem .8rem;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 801px) {
+    .alignBox{
+        .logo{
+            max-width: 6rem;
+        }
+
+        .whiteBox{
+            padding: 3.125rem 2rem;
+        }
+    }
+
+}
+

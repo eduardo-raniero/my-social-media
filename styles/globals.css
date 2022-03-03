@@ -1,0 +1,45 @@
+::selection{
+  background: #48D06D;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  background: #010f19;
+  color: #f2f2f2;
+  max-width: 750px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  word-wrap: break-word; 
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.container{
+  max-width: 100%;
+  margin-top: 15vh;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.swal-text {
+  color: #1e1e1e;
+  font-family: 'Roboto';
+  font-size: 1.125rem;
+}

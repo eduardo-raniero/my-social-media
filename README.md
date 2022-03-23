@@ -1,9 +1,4 @@
-Teste Técnico - Desenvolvedor React - QuikDev 
-- Eduardo Raniero Silva
-- eduardoraniero@gmail.com
-- (11) 94983-6489
-
-## Como interpretei o teste:
+## O que foi desenvolvido:
 
 Como a aplicação adiciona/remove/edita postagens e comentários, assim como possue sistema de login, tomei decisões de logotipo e estilização pensando no produto final como uma "mini Rede Social".
 ## Stacks utilizadas

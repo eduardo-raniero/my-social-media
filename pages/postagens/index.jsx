@@ -51,7 +51,11 @@ export default function Posts(){
     const { handleCommentChange, setCommentValues, commentValues, handleCommentSubmit, isDisabledComment} = useFormComment(validateInfoComment);
     const { handleEditionComment, editedCommentValues, setEditedCommentValues, handleSubmitEditComment, isDisabledEditComment } = useFormEditComment(validateInfoEditComment)
     
-
+    useEffect(() => {
+        console.log("teste")
+    }, 
+    //toda vez que isso mudar, roda dnv
+    [newPost]);
   
     useEffect(() => {
         if(localStorage.getItem('loggedUser') === null){
